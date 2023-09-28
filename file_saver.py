@@ -35,7 +35,6 @@ class MyHandler(FileSystemEventHandler):
             return os.path.join(self.destination_folder, "Images")
         elif file_path.endswith(".circ"):
             return os.path.join(self.destination_folder, "Logisim_Circuits")
-        
         else:
             return None
 
