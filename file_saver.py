@@ -47,8 +47,8 @@ class MyHandler(FileSystemEventHandler):
             print(f"Error moving {source} to {destination}: {str(e)}")
 
 if __name__ == "__main__":
-    download_folder = "/Users/madduxv/Downloads" #/path/to/downloaded/files
-    destination_folder = "/Users/madduxv/Desktop/sorted_downloads" #/path/to/destination/folders
+    download_folder = "/path/to/downloaded/files" 
+    destination_folder = "/path/to/destination/folders" 
 
     event_handler = MyHandler(download_folder, destination_folder)
     observer = Observer()
