@@ -8,9 +8,9 @@ Before using this script, you should have the following installed on your system
 Python 3.x: You can download Python from the official website.
 
 watchdog library: You can install it using pip:
-
+```
 pip install watchdog
-
+```
 # Getting Started
 Clone or download this repository to your local machine.
 
