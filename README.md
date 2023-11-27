@@ -17,32 +17,32 @@ Clone or download this repository to your local machine.
 Open the terminal and navigate to the directory containing the script.
 
 Edit the script to set your download folder and destination folder paths. Update the following lines with your folder paths:
-
+```
 download_folder = "/path/to/your/download/folder"
 
 destination_folder = "/path/to/your/destination/folder"
-
+```
 # Customizing the Organization Rules
 You can customize the organization rules by modifying the get_destination_folder method in the script. By default, the script organizes files based on their extensions and filenames. You can add, remove, or modify conditions to match your requirements. 
 
 # Running the Script
 To run the script, open a terminal, navigate to the script's directory, and execute the following command:
-
+```
 nohup python file_saver.py &
-
+```
 The script will continuously monitor your download folder and organize new files based on your custom rules.
 
 # Stopping the Script
 To stop the script gracefully, use the following steps:
 
 Find the process ID (PID) of the running script:
-
+```
 ps aux | grep file_saver.py
-
+```
 Terminate the process using the kill command:
-
+```
 kill PID
-
+```
 Replace PID with the process ID you found in step 1.
 
 # License
